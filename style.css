@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: flex-start; /* arriba */
+    padding-top: 40px; /* lo sube/baja */
+    background: #111;
+}
+
+canvas {
+    border: 2px solid white;
+}
+
+button {
+    border: 3px solid black;
+    color: white;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column; /* one behind each other */
+    align-items: center;
+    gap: 20px; /* separation */
+}
