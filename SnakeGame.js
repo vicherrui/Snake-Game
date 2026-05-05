@@ -17,6 +17,9 @@ let Snake = [
 
 let Direction = { x: 1, y: 0 };
 let NextDirection = { x: 1, y: 0 };
+let speed = 15;
+
+let gameInterval = setInterval(show, 2000 / speed);
 
 let score = 0;
 let GameOver = false;
@@ -128,5 +131,6 @@ function restartGame() {
 
     Food = generateFood();
 }
+
 
 document.getElementById("restartBtn").addEventListener("click", restartGame);
